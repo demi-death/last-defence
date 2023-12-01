@@ -2,6 +2,8 @@ import pygame
 from math import sqrt
 import random
 
+FPS=144
+
 class Point:
     x:float
     y:float
@@ -816,5 +818,5 @@ def runGame(screenSize:tuple|list,fps:int=60):
         pygame.display.update()
 
 pygame.init()
-runGame((1712,963),144)
+runGame((1712,963),FPS)
 pygame.quit()
