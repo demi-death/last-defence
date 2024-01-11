@@ -540,7 +540,7 @@ def runGame(screenSize:tuple|list,fps:int=60):
     AUTO_PISTOL=Weapon(WeaponSettings(SECONDARY_GUN,"Auto Pistol",damage=10,ammospeed=600/fps,ammorange=700,ammocount=12,firerate=time__(6),reloadTime=time__(60),is_auto=True))
     ALIEN_BLASTER=Weapon(WeaponSettings(SECONDARY_GUN,"Alien Blaster",damage=70,ammospeed=800/fps,ammorange=800,ammocount=4,firerate=time__(8),reloadTime=time__(70)))
     REVOLVER=Weapon(WeaponSettings(PRIMARY_GUN,"Revolver",damage=60,ammospeed=550/fps,ammorange=850,ammocount=6,firerate=time__(30),reloadTime=time__(70)))
-    SEMI_AUTO=Weapon(WeaponSettings(PRIMARY_GUN,"Semi Auto",damage=50,ammospeed=800/fps,ammorange=950,ammocount=8,firerate=time__(112),reloadTime=time__(80)))
+    SEMI_AUTO=Weapon(WeaponSettings(PRIMARY_GUN,"Semi Auto",damage=50,ammospeed=800/fps,ammorange=950,ammocount=8,firerate=time__(12),reloadTime=time__(80)))
     SUBMACHINE_GUN=Weapon(WeaponSettings(PRIMARY_GUN,"Submachine Gun",damage=20,ammospeed=700/fps,ammorange=900,ammocount=34,firerate=time__(7),reloadTime=time__(75),is_auto=True))
     ASSAULT_RIFLE=Weapon(WeaponSettings(PRIMARY_GUN,"Assault Rifle",damage=20,ammospeed=500/fps,ammorange=900,ammocount=28,firerate=time__(8),reloadTime=time__(80),is_auto=True))
 
@@ -551,7 +551,7 @@ def runGame(screenSize:tuple|list,fps:int=60):
     dropped_items=DroppedItems([
         DroppedItemSettings(AUTO_PISTOL,pygame.image.load('images/Auto_Pistol.png'),80,from_round=1),
         DroppedItemSettings(ALIEN_BLASTER,pygame.image.load('images/Alien_Blaster.png'),400,from_round=7),
-        DroppedItemSettings(REVOLVER,pygame.image.load('images/Auto_Pistol.png'),500,from_round=4),
+        DroppedItemSettings(REVOLVER,pygame.image.load('images/Revolver.png'),500,from_round=4),
         DroppedItemSettings(SEMI_AUTO,pygame.image.load('images/Semi_Auto.png'),800,from_round=6),
         DroppedItemSettings(SUBMACHINE_GUN,pygame.image.load('images/Submachine_Gun.png'),1300,from_round=10),
         DroppedItemSettings(ASSAULT_RIFLE,pygame.image.load('images/Assault_Rifle.png'),2000,from_round=14),
