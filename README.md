@@ -4,3 +4,4 @@
   a - Move left.
   s - Move downward.
   d - Move right.
+If you encounter pygame module not found error, type command "pip install pygame".
